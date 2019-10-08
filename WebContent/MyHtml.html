@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Top European city to visit</title>
+<meta charset="UTF-8">
+<title>Travel Europe</title>
 <link rel="stylesheet" type="text/css" href="./css/MyHtml.css" />
+<script src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="js/a_1.js"></script>
+<link rel="stylesheet" type="text/css" href="./css/a_1.css" >
 </head>
 <body>
 	<div class="hero-bkg-animated">
@@ -67,6 +70,14 @@
 		hotel or other type of accommodation used (children under 10 years old
 		are exempt, and the tax doesn't apply after 10 days).
 	</p>
+
+	<hr>
+
+	<button id="roller">Random Rome Pic?</button>
+	<br>
+	<img id="romeImg" width="560" height="420" src="pic/rome/rome.jpg">
+
+
 	<hr>
 	<h2>Berlin</h2>
 	<p>
@@ -190,7 +201,7 @@
 	<h2>Want to suggest another city to review? Choose one out of our
 		options!</h2>
 
-	<form action="/stuff">
+	<form onsubmit="return false;">
 		<div>
 			<input type="radio" id="favLis" name="fav" value="Lisboa" checked />
 			<label for="favC">Lisboa</label> <input type="radio" id="favBru"
@@ -201,7 +212,40 @@
 		<div>
 			<br /> <input type="submit" value="Enter" />
 		</div>
+		
+		
+		
+		
+		
 	</form>
+	<hr>
+	<h1>Our reviews</h1>
+	<table>
 
+		<tr>
+			<th></th>
+			<th>Tourism</th>
+			<th>Nightlife</th>
+			<th>Cost</th>
+		</tr>
+		<tr>
+			<td>Rome</td>
+			<td>9</td>
+			<td>8</td>
+			<td>8</td>
+		</tr>
+		<tr>
+			<td>Berlin</td>
+			<td>7</td>
+			<td>9</td>
+			<td>9</td>
+		</tr>
+		<tr>
+			<td>Amsterdam</td>
+			<td>8</td>
+			<td>8</td>
+			<td>7</td>
+		</tr>
+	</table>
 </body>
 </html>

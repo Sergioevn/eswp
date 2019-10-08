@@ -34,7 +34,6 @@ $(function() {
 		let cur = $('#msg3');
 
 		if (cur.hasClass('red')) {
-			cur.removeClass('red');
 			cur.addClass('yellow');
 		} else if (cur.hasClass('yellow')) {
 			cur.removeClass('yellow');

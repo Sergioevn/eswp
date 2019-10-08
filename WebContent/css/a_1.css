@@ -1,0 +1,16 @@
+@charset "ISO-8859-1";
+table.Beta {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 30%
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 3px;
+    text-align: center;
+}
+
+th {
+    background-color: lightgray;
+}
